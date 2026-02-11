@@ -3,41 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AccessibilidadTest - Juego y aprende accesibilidad</title>
+  <title>AccesibilidadTest - Aprende accesibilidad web jugando</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- PWA -->
   <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
-<header>
-  <h1>AccesibilidadTest</h1>
-  <nav>
-    <button data-route="home">Inicio</button>
-    <button data-route="game">Jugar</button>
-    <button data-route="progress">Progreso</button>
-    <button data-route="teacher">Profesor</button>
-  </nav>
-</header>
+  <header>
+    <h1>AccesibilidadTest</h1>
+    <nav aria-label="Navegación principal">
+      <button data-route="home">Inicio</button>
+      <button data-route="game">Jugar</button>
+      <button data-route="learn">Qué aprenderás</button>
+      <button data-route="benefits">Beneficios</button>
+      <button data-route="testimonials">Testimonios</button>
+      <button data-route="resources">Recursos</button>
+      <button data-route="blog">Blog</button>
+      <button data-route="about">Sobre mí</button>
+      <button data-route="contact">Contacto</button>
+    </nav>
+  </header>
 
-<main id="app" tabindex="-1"></main>
+  <main id="app" tabindex="-1">
+    <!-- Contenido cargado dinámicamente -->
+  </main>
 
-<footer>
-  <p>Proyecto educativo de accesibilidad web</p>
-</footer>
+  <footer>
+    <p>Proyecto educativo de accesibilidad web | 2026</p>
+  </footer>
 
-<script src="js/app.js"></script>
-<script src="js/game.js"></script>
-<script src="js/avatars.js"></script>
-<script src="js/progress.js"></script>
-<script src="js/ranking.js"></script>
-<script src="js/teacher.js"></script>
-<script src="js/editor.js"></script>
-<script src="js/db.js"></script>
-<script src="js/pdf.js"></script>
-<script src="js/analytics.js"></script>
-<script src="js/import.js"></script>
-<script src="js/narrator.js"></script>
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/game.js"></script>
 </body>
 </html>
+
+
 
