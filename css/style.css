@@ -27,13 +27,15 @@ nav button:focus {
   outline: 3px solid #ffbf00;
 }
 
+nav button {
+  transition: transform 0.15s ease;
+  transition: box-shadow 0.15s ease;
+}
+
 main {
   padding: 1.5rem;
   max-width: 900px;
   margin: auto;
-}
-button {
-  transition: transform .15s ease, box-shadow .15s ease;
 }
 
 button:hover {
