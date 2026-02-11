@@ -45,7 +45,10 @@ const routes = {
   contact: () => `
     <h2>Contacto</h2>
     <p>¿Quieres colaborar o usar AccesibilidadTest en tu clase? Escríbeme a lalozab@gmail.com</p>
-  `
+  `,
+  avatars: () => chooseAvatar(),
+  ranking: () => showRanking(),
+  teacher: () => showTeacher()
 };
 
 // Añadir eventos a los botones
