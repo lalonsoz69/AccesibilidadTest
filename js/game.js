@@ -2,9 +2,9 @@ let level = 1;
 
 function startGame() {
   return `
-    <h2>Nivel ${level}</h2>
-    <p>¿Este texto tiene contraste suficiente para ser accesible?</p>
-    <div style="color:#aaa;background:#fff;padding:1rem">
+    <h2>Nivel ${level} - Contraste de colores</h2>
+    <p>¿Este texto tiene suficiente contraste para ser accesible?</p>
+    <div style="color:#aaa;background:#fff;padding:1rem;border-radius:5px;margin:1rem 0;">
       Texto de ejemplo
     </div>
     <button onclick="answer(false)">No es accesible</button>
@@ -13,12 +13,13 @@ function startGame() {
 }
 
 function answer(correct) {
-  if (correct) {
+  if(correct) {
     level++;
-    alert("¡Bien hecho! Pasas al siguiente nivel");
+    alert("¡Correcto! Pasas al siguiente nivel.");
     loadRoute("game");
   } else {
-    alert("Revisa el contraste: es demasiado bajo");
+    alert("Revisa el contraste: es demasiado bajo.");
   }
 }
+
 
