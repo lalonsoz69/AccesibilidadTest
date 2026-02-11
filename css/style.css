@@ -1,1 +1,35 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #111;
+  line-height: 1.6;
+}
+
+header {
+  background: #003a8c;
+  color: white;
+  padding: 1rem;
+}
+
+nav button {
+  margin: .3rem;
+  padding: .6rem 1rem;
+  font-size: 1rem;
+  background: #ffffff;
+  color: #003a8c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+nav button:focus {
+  outline: 3px solid #ffbf00;
+}
+
+main {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
 
