@@ -40,11 +40,11 @@ const routes = {
   `,
   about: () => `
     <h2>Sobre mí</h2>
-    <p>Soy un apasionado de la accesibilidad digital y la educación web. Con este proyecto quiero que aprender accesibilidad sea práctico y divertido para todos.</p>
+    <p>Soy una apasionada de la accesibilidad digital y la educación web. Con este proyecto quiero que aprender accesibilidad sea práctico y divertido para todos.</p>
   `,
   contact: () => `
     <h2>Contacto</h2>
-    <p>¿Quieres colaborar o usar AccesibilidadTest en tu clase? Escríbeme a tuemail@ejemplo.com</p>
+    <p>¿Quieres colaborar o usar AccesibilidadTest en tu clase? Escríbeme a lalozab@gmail.com</p>
   `
 };
 
